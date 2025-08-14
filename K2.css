@@ -1,3 +1,5 @@
+html
+{
 .theme-entry a.SourceCode-Forms-Controls-Web-Button.button-quiet:hover,
 .theme-entry a.SourceCode-Forms-Controls-Web-Button.button-quiet.designtime:hover,
 .theme-entry a.SourceCode-Forms-Controls-Web-Button.button-quiet.preview:hover {
@@ -8,4 +10,5 @@
     transform: translateY(-2px);
     transition: all 0.25s ease-in-out;
     border-radius: 8px;
+}
 }
