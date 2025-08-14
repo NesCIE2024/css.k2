@@ -1,75 +1,11 @@
-html{
-.k2-button {
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* สีไล่โทนสวยๆ */
-    color: #fff; /* ตัวอักษรสีขาว */
-    border: none; /* ไม่มีขอบ */
-    border-radius: 12px; /* มุมโค้งสวย */
-    padding: 12px 24px; /* ขนาดปุ่ม */
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase; /* ตัวอักษรพิมพ์ใหญ่ */
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* เงาเบาๆ */
-    transition: all 0.3s ease; /* ทำให้ทุกการเปลี่ยนลื่น */
+.theme-entry a.SourceCode-Forms-Controls-Web-Button.button-quiet:hover,
+.theme-entry a.SourceCode-Forms-Controls-Web-Button.button-quiet.designtime:hover,
+.theme-entry a.SourceCode-Forms-Controls-Web-Button.button-quiet.preview:hover {
+    background: linear-gradient(135deg, var(--quiet-button-hover-background-color), #6c63ff);
+    border-color: var(--quiet-button-hover-border-color);
+    color: var(--quiet-button-hover-text-color);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: all 0.25s ease-in-out;
+    border-radius: 8px;
 }
-
-/* เอฟเฟกต์เมื่อ hover */
-.k2-button:hover {
-    transform: translateY(-3px) scale(1.05); /* ยกปุ่มและขยายเล็กน้อย */
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* เงาเข้มขึ้น */
-    background: linear-gradient(135deg, #2575fc, #6a11cb); /* ไล่สีกลับด้าน */
-}
-
-/* ปุ่มเวลา active (กด) */
-.k2-button:active {
-    transform: translateY(0px) scale(0.98); /* ยุบปุ่มเล็กน้อย */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* กลับไปเงาเบา */
-}
-
-/* ปุ่มแบบ disabled */
-.k2-button:disabled {
-    background: #cccccc;
-    color: #666666;
-    cursor: not-allowed;
-    opacity: 0.7;
-
-}
-
-    .button-quiet{
-        background: linear-gradient(135deg, #6a11cb, #2575fc); /* สีไล่โทนสวยๆ */
-        color: #fff; /* ตัวอักษรสีขาว */
-        border: none; /* ไม่มีขอบ */
-        border-radius: 12px; /* มุมโค้งสวย */
-        padding: 12px 24px; /* ขนาดปุ่ม */
-        font-size: 16px;
-        font-weight: 600;
-        text-transform: uppercase; /* ตัวอักษรพิมพ์ใหญ่ */
-        cursor: pointer;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* เงาเบาๆ */
-        transition: all 0.3s ease; /* ทำให้ทุกการเปลี่ยนลื่น */
-    }
-
-    /* เอฟเฟกต์เมื่อ hover */
-.button-quiet:hover {
-    transform: translateY(-3px) scale(1.05); /* ยกปุ่มและขยายเล็กน้อย */
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* เงาเข้มขึ้น */
-    background: linear-gradient(135deg, #2575fc, #6a11cb); /* ไล่สีกลับด้าน */
-}
-
-/* ปุ่มเวลา active (กด) */
-.button-quiet:active {
-    transform: translateY(0px) scale(0.98); /* ยุบปุ่มเล็กน้อย */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* กลับไปเงาเบา */
-}
-
-/* ปุ่มแบบ disabled */
-.button-quiet:disabled {
-    background: #cccccc;
-    color: #666666;
-    cursor: not-allowed;
-    opacity: 0.7;
-
-}
-
-}
-
